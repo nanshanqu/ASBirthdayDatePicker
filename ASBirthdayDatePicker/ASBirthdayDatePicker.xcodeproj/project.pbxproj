@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043EA8F524582B95001FA844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA8F424582B95001FA844 /* AppDelegate.m */; };
+		043EA8F824582B95001FA844 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA8F724582B95001FA844 /* SceneDelegate.m */; };
+		043EA8FB24582B95001FA844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA8FA24582B95001FA844 /* ViewController.m */; };
+		043EA8FE24582B95001FA844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043EA8FC24582B95001FA844 /* Main.storyboard */; };
+		043EA90024582B97001FA844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043EA8FF24582B97001FA844 /* Assets.xcassets */; };
+		043EA90324582B97001FA844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043EA90124582B97001FA844 /* LaunchScreen.storyboard */; };
+		043EA90624582B97001FA844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA90524582B97001FA844 /* main.m */; };
+		043EA91024582B97001FA844 /* ASBirthdayDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA90F24582B97001FA844 /* ASBirthdayDatePickerTests.m */; };
+		043EA91B24582B97001FA844 /* ASBirthdayDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA91A24582B97001FA844 /* ASBirthdayDatePickerUITests.m */; };
+		043EA92B24582BBC001FA844 /* ASBirthdayDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EA92A24582BBC001FA844 /* ASBirthdayDatePickerView.m */; };
+		790C9B61F201342F08B3763E /* libPods-ASBirthdayDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE204715D1C66BABD250C473 /* libPods-ASBirthdayDatePicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043EA90C24582B97001FA844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043EA8E824582B95001FA844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043EA8EF24582B95001FA844;
+			remoteInfo = ASBirthdayDatePicker;
+		};
+		043EA91724582B97001FA844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043EA8E824582B95001FA844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043EA8EF24582B95001FA844;
+			remoteInfo = ASBirthdayDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043EA8F024582B95001FA844 /* ASBirthdayDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBirthdayDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043EA8F324582B95001FA844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043EA8F424582B95001FA844 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043EA8F624582B95001FA844 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		043EA8F724582B95001FA844 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		043EA8F924582B95001FA844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043EA8FA24582B95001FA844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043EA8FD24582B95001FA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043EA8FF24582B97001FA844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043EA90224582B97001FA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043EA90424582B97001FA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043EA90524582B97001FA844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043EA90B24582B97001FA844 /* ASBirthdayDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASBirthdayDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043EA90F24582B97001FA844 /* ASBirthdayDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBirthdayDatePickerTests.m; sourceTree = "<group>"; };
+		043EA91124582B97001FA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043EA91624582B97001FA844 /* ASBirthdayDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASBirthdayDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043EA91A24582B97001FA844 /* ASBirthdayDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBirthdayDatePickerUITests.m; sourceTree = "<group>"; };
+		043EA91C24582B97001FA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043EA92924582BBC001FA844 /* ASBirthdayDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASBirthdayDatePickerView.h; sourceTree = "<group>"; };
+		043EA92A24582BBC001FA844 /* ASBirthdayDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBirthdayDatePickerView.m; sourceTree = "<group>"; };
+		166EA6C910F176CE06139844 /* Pods-ASBirthdayDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBirthdayDatePicker.debug.xcconfig"; path = "Target Support Files/Pods-ASBirthdayDatePicker/Pods-ASBirthdayDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6A5D97ED394B6CCE10E47B /* Pods-ASBirthdayDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBirthdayDatePicker.release.xcconfig"; path = "Target Support Files/Pods-ASBirthdayDatePicker/Pods-ASBirthdayDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+		BE204715D1C66BABD250C473 /* libPods-ASBirthdayDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASBirthdayDatePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043EA8ED24582B95001FA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790C9B61F201342F08B3763E /* libPods-ASBirthdayDatePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA90824582B97001FA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA91324582B97001FA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043EA8E724582B95001FA844 = {
+			isa = PBXGroup;
+			children = (
+				043EA8F224582B95001FA844 /* ASBirthdayDatePicker */,
+				043EA90E24582B97001FA844 /* ASBirthdayDatePickerTests */,
+				043EA91924582B97001FA844 /* ASBirthdayDatePickerUITests */,
+				043EA8F124582B95001FA844 /* Products */,
+				BF01963836A171D6679CA84E /* Pods */,
+				2259FBB0B547862EAB3E3EB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043EA8F124582B95001FA844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043EA8F024582B95001FA844 /* ASBirthdayDatePicker.app */,
+				043EA90B24582B97001FA844 /* ASBirthdayDatePickerTests.xctest */,
+				043EA91624582B97001FA844 /* ASBirthdayDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043EA8F224582B95001FA844 /* ASBirthdayDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				043EA92824582BAA001FA844 /* ASBirthdayDatePickerView */,
+				043EA8F324582B95001FA844 /* AppDelegate.h */,
+				043EA8F424582B95001FA844 /* AppDelegate.m */,
+				043EA8F624582B95001FA844 /* SceneDelegate.h */,
+				043EA8F724582B95001FA844 /* SceneDelegate.m */,
+				043EA8F924582B95001FA844 /* ViewController.h */,
+				043EA8FA24582B95001FA844 /* ViewController.m */,
+				043EA8FC24582B95001FA844 /* Main.storyboard */,
+				043EA8FF24582B97001FA844 /* Assets.xcassets */,
+				043EA90124582B97001FA844 /* LaunchScreen.storyboard */,
+				043EA90424582B97001FA844 /* Info.plist */,
+				043EA90524582B97001FA844 /* main.m */,
+			);
+			path = ASBirthdayDatePicker;
+			sourceTree = "<group>";
+		};
+		043EA90E24582B97001FA844 /* ASBirthdayDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				043EA90F24582B97001FA844 /* ASBirthdayDatePickerTests.m */,
+				043EA91124582B97001FA844 /* Info.plist */,
+			);
+			path = ASBirthdayDatePickerTests;
+			sourceTree = "<group>";
+		};
+		043EA91924582B97001FA844 /* ASBirthdayDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043EA91A24582B97001FA844 /* ASBirthdayDatePickerUITests.m */,
+				043EA91C24582B97001FA844 /* Info.plist */,
+			);
+			path = ASBirthdayDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		043EA92824582BAA001FA844 /* ASBirthdayDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				043EA92924582BBC001FA844 /* ASBirthdayDatePickerView.h */,
+				043EA92A24582BBC001FA844 /* ASBirthdayDatePickerView.m */,
+			);
+			path = ASBirthdayDatePickerView;
+			sourceTree = "<group>";
+		};
+		2259FBB0B547862EAB3E3EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE204715D1C66BABD250C473 /* libPods-ASBirthdayDatePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF01963836A171D6679CA84E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166EA6C910F176CE06139844 /* Pods-ASBirthdayDatePicker.debug.xcconfig */,
+				7E6A5D97ED394B6CCE10E47B /* Pods-ASBirthdayDatePicker.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043EA8EF24582B95001FA844 /* ASBirthdayDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043EA91F24582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePicker" */;
+			buildPhases = (
+				89B7DEB6CA68D7703E2F16E5 /* [CP] Check Pods Manifest.lock */,
+				043EA8EC24582B95001FA844 /* Sources */,
+				043EA8ED24582B95001FA844 /* Frameworks */,
+				043EA8EE24582B95001FA844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBirthdayDatePicker;
+			productName = ASBirthdayDatePicker;
+			productReference = 043EA8F024582B95001FA844 /* ASBirthdayDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043EA90A24582B97001FA844 /* ASBirthdayDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043EA92224582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePickerTests" */;
+			buildPhases = (
+				043EA90724582B97001FA844 /* Sources */,
+				043EA90824582B97001FA844 /* Frameworks */,
+				043EA90924582B97001FA844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043EA90D24582B97001FA844 /* PBXTargetDependency */,
+			);
+			name = ASBirthdayDatePickerTests;
+			productName = ASBirthdayDatePickerTests;
+			productReference = 043EA90B24582B97001FA844 /* ASBirthdayDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043EA91524582B97001FA844 /* ASBirthdayDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043EA92524582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePickerUITests" */;
+			buildPhases = (
+				043EA91224582B97001FA844 /* Sources */,
+				043EA91324582B97001FA844 /* Frameworks */,
+				043EA91424582B97001FA844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043EA91824582B97001FA844 /* PBXTargetDependency */,
+			);
+			name = ASBirthdayDatePickerUITests;
+			productName = ASBirthdayDatePickerUITests;
+			productReference = 043EA91624582B97001FA844 /* ASBirthdayDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043EA8E824582B95001FA844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					043EA8EF24582B95001FA844 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					043EA90A24582B97001FA844 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 043EA8EF24582B95001FA844;
+					};
+					043EA91524582B97001FA844 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 043EA8EF24582B95001FA844;
+					};
+				};
+			};
+			buildConfigurationList = 043EA8EB24582B95001FA844 /* Build configuration list for PBXProject "ASBirthdayDatePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043EA8E724582B95001FA844;
+			productRefGroup = 043EA8F124582B95001FA844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043EA8EF24582B95001FA844 /* ASBirthdayDatePicker */,
+				043EA90A24582B97001FA844 /* ASBirthdayDatePickerTests */,
+				043EA91524582B97001FA844 /* ASBirthdayDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043EA8EE24582B95001FA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043EA90324582B97001FA844 /* LaunchScreen.storyboard in Resources */,
+				043EA90024582B97001FA844 /* Assets.xcassets in Resources */,
+				043EA8FE24582B95001FA844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA90924582B97001FA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA91424582B97001FA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89B7DEB6CA68D7703E2F16E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASBirthdayDatePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043EA8EC24582B95001FA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043EA8FB24582B95001FA844 /* ViewController.m in Sources */,
+				043EA92B24582BBC001FA844 /* ASBirthdayDatePickerView.m in Sources */,
+				043EA8F524582B95001FA844 /* AppDelegate.m in Sources */,
+				043EA90624582B97001FA844 /* main.m in Sources */,
+				043EA8F824582B95001FA844 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA90724582B97001FA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043EA91024582B97001FA844 /* ASBirthdayDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043EA91224582B97001FA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043EA91B24582B97001FA844 /* ASBirthdayDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043EA90D24582B97001FA844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043EA8EF24582B95001FA844 /* ASBirthdayDatePicker */;
+			targetProxy = 043EA90C24582B97001FA844 /* PBXContainerItemProxy */;
+		};
+		043EA91824582B97001FA844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043EA8EF24582B95001FA844 /* ASBirthdayDatePicker */;
+			targetProxy = 043EA91724582B97001FA844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043EA8FC24582B95001FA844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043EA8FD24582B95001FA844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043EA90124582B97001FA844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043EA90224582B97001FA844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043EA91D24582B97001FA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043EA91E24582B97001FA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043EA92024582B97001FA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166EA6C910F176CE06139844 /* Pods-ASBirthdayDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043EA92124582B97001FA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6A5D97ED394B6CCE10E47B /* Pods-ASBirthdayDatePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043EA92324582B97001FA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASBirthdayDatePicker.app/ASBirthdayDatePicker";
+			};
+			name = Debug;
+		};
+		043EA92424582B97001FA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASBirthdayDatePicker.app/ASBirthdayDatePicker";
+			};
+			name = Release;
+		};
+		043EA92624582B97001FA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASBirthdayDatePicker;
+			};
+			name = Debug;
+		};
+		043EA92724582B97001FA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASBirthdayDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASBirthdayDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASBirthdayDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043EA8EB24582B95001FA844 /* Build configuration list for PBXProject "ASBirthdayDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043EA91D24582B97001FA844 /* Debug */,
+				043EA91E24582B97001FA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043EA91F24582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043EA92024582B97001FA844 /* Debug */,
+				043EA92124582B97001FA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043EA92224582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043EA92324582B97001FA844 /* Debug */,
+				043EA92424582B97001FA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043EA92524582B97001FA844 /* Build configuration list for PBXNativeTarget "ASBirthdayDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043EA92624582B97001FA844 /* Debug */,
+				043EA92724582B97001FA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043EA8E824582B95001FA844 /* Project object */;
+}
