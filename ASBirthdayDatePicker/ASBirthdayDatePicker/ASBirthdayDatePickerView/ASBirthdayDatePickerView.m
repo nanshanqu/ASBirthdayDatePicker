@@ -159,6 +159,8 @@ static ASBirthdayDatePickerView *_birthdayDatePickerViewManager = nil;
         _datePicker.locale = [NSLocale localeWithLocaleIdentifier:@"zh"];
         //设置日期模式(Displays month, day, and year depending on the locale setting)
         _datePicker.datePickerMode = UIDatePickerModeDate;
+        // iOS13.4之后，需要设置preferredDatePickerStyle为UIDatePickerStyleWheels才显示原来的UIDatePicker选择样式
+        _datePicker.preferredDatePickerStyle = UIDatePickerStyleWheels;
         // 设置当前显示时间
         [_datePicker setDate:[NSDate date] animated:YES];
         
